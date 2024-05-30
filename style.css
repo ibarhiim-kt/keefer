@@ -31,8 +31,14 @@ body{
     height: 100%;
     width: 100%;    
 }
+.cursor{
+    cursor: pointer;
+}
+.cont-parent{
+    background-color: #f0f0f09b;
+}
 .container{
-    max-width: 1440px;
+    max-width: 1260px;
     margin: auto;
     overflow: hidden;
 }
@@ -79,7 +85,7 @@ body{
 }
 .bar{
     font-family:"Poppins Medium";
-    max-width: 1440px;
+    max-width: 1260px;
     margin: auto;
     display: flex;
     justify-content: end;
@@ -100,7 +106,7 @@ body{
     padding: 12px 18px;
 }
 .section1{
-    max-width: 1440px;
+    max-width: 1260px;
     margin: auto;
     display: flex;
     justify-content: space-between;
@@ -209,6 +215,7 @@ body{
     font-size: 15px;
     padding: 5px 0 0 8px;
     color: rgba(0, 0, 0, 0.695); 
+    resize: none;
 }
 #section1-box-part4 { 
     font-family: "Poppins Light";     
@@ -241,7 +248,7 @@ body{
     margin-left: 10px;    
 } 
 .section2{
-    max-width: 1440px;
+    max-width: 1260px;
     margin: auto;
     padding: 0 60px 0 60px;
     margin-top: 20px;
@@ -254,11 +261,10 @@ body{
     overflow: hidden;
 }
 #section2-part1{
-    max-width: 370px;
+    max-width: 344px;
     justify-content: space-between;
-    padding-right: 40px;
-    border-right: 1px solid rgba(182, 176, 176, 0.54);
     max-height: 300px;
+    margin-right: 25px;
 }
 #section2-part1 h2{
     font-size: 24px;
@@ -300,8 +306,7 @@ body{
     justify-content: flex-end;
     margin-left: 132px;
     padding-right: 20px;
-    border-top: 2px solid rgba(182, 176, 176, 0.54);
-    
+    border-top: 2px solid rgba(182, 176, 176, 0.54);    
 }
 #section2-part1-buttons img{
     height: 13px;
@@ -323,6 +328,9 @@ body{
 }
 #section2-part2{
     max-width: 500px;
+    border-left: 1px solid rgba(182, 176, 176, 0.54);
+    border-right: 1px solid rgba(182, 176, 176, 0.54);
+    /* max-height: 300px; */
 }
 #section2-part2-part1{
     display: flex;
@@ -330,6 +338,9 @@ body{
     padding: 0 25px 0 25px;
     padding-bottom: 20px;
     border-bottom: 1px solid rgba(182, 176, 176, 0.54);
+}
+#section2-part2-part1-content{
+    margin-right: 20px;
 }
 #section2-part2-part1 h2{
     font-size: 24px;
@@ -381,12 +392,12 @@ body{
 }
 #section2-part2-part2-img img{
     height: 120px;
-    margin-top: 12px;
+    margin-top: -5px;
 }
 #section2-part3{
     max-width: 320px;
-    max-height: 300px;
-    border-left: 1px solid rgba(182, 176, 176, 0.54);
+    /* max-height: 300px; */
+    /* border-left: 1px solid rgba(182, 176, 176, 0.54); */
 }
 #section2-part3 h2{
     font-size: 24px;
@@ -435,7 +446,7 @@ body{
     margin-left: 5px;       
 } 
 .section3{
-    max-width: 1440px;
+    max-width: 1260px;
     margin: auto;  
     overflow: hidden;
 }
@@ -447,7 +458,7 @@ body{
     padding: 25px 37px 47px 37px;
     display: flex;
     justify-content: space-between;
-    max-width: 1440px;
+    max-width: 1260px;
     margin: auto;
     color: rgba(0, 0, 0, 0.695); 
     font-family: "Tinos Bold";
@@ -579,7 +590,7 @@ body{
 @media(max-width:1239px){
 
     .container{
-        /* max-width: 1100px; */
+        max-width: 1100px;
     }
     .headerPara{
         margin-right: 0;
@@ -911,7 +922,7 @@ body{
 }
 @media(max-width:1000px){
     .container{
-        /* max-width: 800px; */
+        max-width: 900px;
     }
     #headerPara-p1 {
         font-family: "Poppins Bold";
@@ -927,13 +938,13 @@ body{
         margin-top: -20px;
     }
     .bar{
-        max-width: 800px;
+        max-width: 900px;
     }
     .bar a{
         font-size: 13px;
     }
     .section1{
-        max-width: 800px;
+        max-width: 900px;
     }
     #section1-box-part1 h2 {
         font-size: 43px;
@@ -1008,7 +1019,8 @@ body{
         margin-left: 13px;
     }
     .section2{
-        max-width:800px;
+        max-width:900px;
+        margin-bottom: 32px;
     }
     #section2-part1 h2 {
         font-size: 43px;
@@ -1063,10 +1075,10 @@ body{
         width: 15px;
     }
     .section3 {
-        max-width: 800px;
+        max-width: 900px;
     }
     .section4{
-        max-width: 800px;
+        max-width: 900px;
     }
     #section4-part1 h2 {
         font-size: 43px;
@@ -1122,13 +1134,13 @@ body{
         padding-right: 10px;
     }
     .bar{
-        max-width: 550px;
+        max-width: 650px;
     }
     .bar a {
         font-size: 9px;
     }
     .section1{
-        max-width: 550px;
+        max-width: 650px;
     }
     #section1-box-part1 h2 {
         font-size: 30px;
@@ -1204,8 +1216,8 @@ body{
         padding: 12px 50px 12px 50px;
     }
     .section2{
-        max-width: 550px;
-        margin-bottom: 113px;        
+        max-width: 650px;
+        margin-bottom: 32px;        
     }
     #section2-part1 h2 {
         font-size: 33px;
@@ -1283,10 +1295,10 @@ body{
         width: 12px;
     }
     .section3{
-        max-width: 550px;
+        max-width: 650px;
     }
     .section4 {
-        max-width: 550px;
+        max-width: 650px;
     }
     #section4-part1 h2 {
         font-size: 33px;
