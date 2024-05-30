@@ -688,7 +688,7 @@ body{
         padding: 30px 10px 30px 10px;
         flex-direction: column;
         max-width: 1100px;
-        margin-bottom: 190px;
+        margin-bottom: 48px;
     }
     #section2-part1 {
         max-width: none;
@@ -739,11 +739,14 @@ body{
     }
     #section2-part2{
         max-width: none;
+        border-right: none;
+        border-left: none;
     }
     #section2-part2-part1{
         padding: 0;
         justify-content: space-between;
         border-bottom: 3px solid rgba(182, 176, 176, 0.54);
+            
     }
     #section2-part2-part1 h2 {
         font-size: 55px;
