@@ -1340,14 +1340,14 @@ body{
 }
 @media(max-width:495px){
     .container{
-    max-width: 350px;
+    max-width: 400px;
     }
     #nav img{
     height: 25px;
     width: 30px;
     }
     .bar{
-    max-width: 350px;
+    max-width: 400px;
     }
     .bar a{
     margin-left: 19px;
@@ -1357,7 +1357,7 @@ body{
     padding: 6px 3px;
     }
     .section1{
-    max-width: 350px;
+    max-width: 400px;
     }
     #section1-box-part1 h2 {
         font-size: 17px;
@@ -1431,7 +1431,7 @@ body{
         margin-bottom: 14px;
     }
     .section2{
-    max-width: 350px;
+    max-width: 400px;
     margin-bottom: 20px;
     }
     #section2-part1{
@@ -1507,10 +1507,10 @@ body{
         width: 8px;
     }
     .section3{
-        max-width: 350px;
+        max-width: 400px;
     }
     .section4{
-        max-width: 350px;
+        max-width: 400px;
     }
     #section4-part1 h2 {
         font-size: 21px;
