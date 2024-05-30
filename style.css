@@ -20,6 +20,10 @@
     src: url(poppins/Poppins-LightItalic.ttf);
   }
   @font-face {
+    font-family: "Poppins SemiBold";
+    src: url(/poppins/Poppins-SemiBold.ttf);
+  }
+  @font-face {
     font-family:"Playfair Display" ;
     src: url(Playfair_Display/OFL.txt);
   }
@@ -90,20 +94,23 @@ body{
     display: flex;
     justify-content: end;
     align-items: center;
-    padding-right: 37px;
+    padding-right: 21px;
     overflow: hidden;
     /* text-shadow: 2px 2px 10px rgba(58, 57, 57, 0.738); */
 }
 .bar a{
     text-decoration: none;
-    margin-left: 29px;
+    /* margin-left: 29px; */
     color: rgba(255, 255, 255, 0.822);
     font-size: 19px;
     text-shadow: 2px 2px 10px rgba(42, 41, 41, 0.595);
 }
 #home{
-    background-color: rgb(106, 104, 104);
+    /* background-color: rgb(106, 104, 104); */
     padding: 12px 18px;
+}
+#home:hover{
+    background-color: rgb(106, 104, 104);
 }
 .section1{
     max-width: 1260px;
@@ -267,7 +274,8 @@ body{
     margin-right: 25px;
 }
 #section2-part1 h2{
-    font-size: 24px;
+    letter-spacing: -1px;
+    font-size: 25px;
 }
 #section2-part1 span{
     color: maroon;
@@ -275,10 +283,10 @@ body{
 #section2-part1 h3{
     font-family: "Poppins Medium";
     color: maroon;
-    font-size: 18px;
+    font-size: 19px;
 }
 #section2-part1-paras{
-    font-family: "Poppins Medium";
+    font-family: "Poppins SemiBold";
     display: flex;
     max-width: 360px;
     margin-bottom: 16px;
@@ -286,7 +294,7 @@ body{
 }
 #section2-part1-paras p{
     margin-bottom: 15px;
-    font-size: 15px;
+    font-size: 16px;
 }
 #section2-part1-paras-img{
     width: 250px;
@@ -314,7 +322,7 @@ body{
     margin-left: 5px;           
 } 
 #click{
-    padding: 2px 12px;
+    padding: 4px 12px;
     background-color: rgb(184, 9, 9);
     border: none;
     font-family: "Poppins Medium";
@@ -343,15 +351,16 @@ body{
     margin-right: 20px;
 }
 #section2-part2-part1 h2{
-    font-size: 24px;
+    letter-spacing: -1px;
+    font-size: 25px;
 }
 #section2-part2-part1 span{
     color: maroon;
 }
 #section2-part2-part1 p{
-    font-family: "Poppins Medium";
+    font-family: "Poppins SemiBold";
     margin-top: 2px;
-    font-size: 15px;
+    font-size: 16px;
 }
 #section2-part2-part1-img img{
     height: 105px;
@@ -380,15 +389,16 @@ body{
     margin-top: 20px;
 }
 #section2-part2-part2 h2{
-    font-size: 24px;
+    font-size: 25px;
+    letter-spacing: -1px;
 }
 #section2-part2-part2 span{
     color: maroon;
 }
 #section2-part2-part2 p{
-    font-family: "Poppins Medium";
+    font-family: "Poppins SemiBold";
     margin-top: 2px;
-    font-size: 15px;
+    font-size: 16px;
 }
 #section2-part2-part2-img img{
     height: 120px;
@@ -400,7 +410,9 @@ body{
     /* border-left: 1px solid rgba(182, 176, 176, 0.54); */
 }
 #section2-part3 h2{
-    font-size: 24px;
+    font-size: 25px;
+    letter-spacing: -1px;
+    line-height: 23px;
 }
 #section2-part3 span{
     color: maroon;
@@ -412,7 +424,9 @@ body{
     margin-top:12px ;
 }
 #section2-part3 p{
-    font-family: "Poppins Medium";
+    font-family: "Poppins SemiBold";
+    font-size: 16px;
+    margin-top: 8px;
 }
 #medal{
     height: 110px;
@@ -452,7 +466,7 @@ body{
 }
 .section3 img{
     width: 100%;
-    height: 5px;
+    height: 8px;
 }
 .section4{
     padding: 25px 37px 47px 37px;
@@ -463,6 +477,9 @@ body{
     color: rgba(0, 0, 0, 0.695); 
     font-family: "Tinos Bold";
     overflow: hidden;
+}
+#section4-part1 h2{
+    /* font-size: 25px; */
 }
 #section4-part1 span{
     color: maroon;
@@ -527,11 +544,17 @@ body{
 #section4-part3-part1{
     margin-bottom: 40px;    
 }
+#section4-part3-part1 h2{
+    line-height: 23px;
+}
 #section4-part3-part1 span{
     color: maroon;
 }
 #section4-part3-part1 p{
-    font-family: "Poppins Medium";
+    font-family: "Poppins SemiBold";
+    line-height: 18px;
+    margin-top:10px;
+    margin-bottom: 10px;
     /* box-shadow: 0 10px 10px -10px rgba(0, 0, 0, 500); */
 }
 #section4-part3-part1-buttons{    
@@ -540,10 +563,12 @@ body{
     align-items: center;
     justify-content: center;
     border-top: 2px solid rgba(118, 116, 116, 0.54);
-    margin-top: 10px;
+    margin-top: 10px;    
 }
 #section4-part3-part1-buttons button{
     font-size: 15px;
+    padding:1px 12px;
+    margin-left: 25px;
 }
 #section4-part3-part1-buttons img{    
     margin-left: 6px;  
@@ -697,7 +722,7 @@ body{
         max-height: none;
         border-right: none;
         border-bottom: 2px solid rgba(182, 176, 176, 0.54);
-        margin-bottom: 40px;
+        margin-bottom: 50px;
     }
     #section2-part1 h2 {
         font-size: 55px;
@@ -728,7 +753,7 @@ body{
         margin-left: 0px;
         padding-right: 0px;
         border-top:none;
-        margin-bottom: 20px;
+        margin-bottom: 50px;
     }
     #click{
         font-size: 34px;
@@ -745,8 +770,8 @@ body{
     #section2-part2-part1{
         padding: 0;
         justify-content: space-between;
-        border-bottom: 3px solid rgba(182, 176, 176, 0.54);
-            
+        border-bottom: 3px solid rgba(182, 176, 176, 0.54);  
+        margin-bottom: 50px;          
     }
     #section2-part2-part1 h2 {
         font-size: 55px;
@@ -763,7 +788,7 @@ body{
         width: 300px;
         border: none;
         justify-content: flex-start;
-        margin-bottom: 20px;
+        margin-bottom: 50px;
     }
     #section2-part2-buttons img {
         height: 25px;
@@ -773,6 +798,7 @@ body{
         justify-content: space-between;
         border-bottom: 3px solid rgba(182, 176, 176, 0.54);
         padding: 0;
+        margin-bottom: 50px;
     }
     #section2-part2-part2 h2{
         font-size: 55px;
@@ -809,7 +835,7 @@ body{
     }
     #section2-part3 h2 {
         font-size: 55px;
-        margin-top: 10px;
+        margin-top: 35px;
     }
     #section2-part3 p {
         font-size: 28px;
@@ -828,8 +854,12 @@ body{
         height: 25px;
         width: 18px;
     }
+    #click{
+        margin-top:8px;
+    }
     .section3{
         max-width: 1100px;
+        margin-bottom: 50px;
     }
     .section4{
         max-width: 1100px;
@@ -882,6 +912,7 @@ body{
     }
     #section4-part3-part1 p{
         font-size: 28px;
+        margin-top: 33px;
     }
     #section4-part3-part1-buttons{
         width: 100%;
@@ -891,7 +922,9 @@ body{
         height: 30px;
     }
     #section4-part3-part1-buttons button{
-        font-size: 34px;        
+        font-size: 34px;  
+        margin-top: 0;      
+        margin-left: 500px;
     }
     #section4-rating {
         height: 190px;
@@ -1222,21 +1255,35 @@ body{
         max-width: 650px;
         margin-bottom: 32px;        
     }
+    #section2-part1{
+        margin-right: 0;
+    }
     #section2-part1 h2 {
-        font-size: 33px;
+        font-size: 45px;
+        text-align: center;
     }
     #section2-part1 h3 {
-        font-size: 25px;
+        font-size: 35px;
+        text-align: center;
+    }
+    #section2-part1-paras{
+        flex-direction: column;
+        align-items: center;        
     }
     #section2-part1-paras p {
         font-size: 17px;
+        max-width: none;
     }
     #section2-part1-paras-p {
-        max-width: 250px;
+        /* max-width: 250px; */
+    }
+    #section2-part1-paras-img{
+        margin-left: 0;
+        width: 0px;
     }
     #section2-part1-paras-img img {
-        height: 186px;
-        width: 149px;
+        /* height: 186px; */
+        /* width: 149px; */
     }
     #click {
         font-size: 21px;
@@ -1245,43 +1292,77 @@ body{
         height: 16px;
         width: 12px;
     }
+    #section2-part1-buttons{
+        justify-content: center;
+    }
     #section2-part2-part1{
+        flex-direction: column;
+        align-items: center;
         justify-content: flex-start;
     }
     #section2-part2-part1 h2 {
-        font-size: 33px;
+        font-size: 45px;
+        text-align: center;
     }
     #section2-part2-part1 p {
-        font-size: 17px;
-    }
+        font-size: 20px;
+        text-align: center;
+        padding-bottom: 0px;
+    }    
     #section2-part2-part1-content {
-        max-width: 200px;
-        margin-right: 20px;
+        /* max-width: 200px; */
+        margin-right: 0px;
     }
     #section2-part2-part1-img img {
-        height: 128px;
+        height: 180px;
+        margin-bottom: 50px;
     }
     #section2-part2-buttons{
-        width: 200px;
+        width: 300px;
+    }
+    #section2-part2-buttons{
+        justify-content: center;
+        padding-right: 0;
     }
     #section2-part2-buttons img {
         height: 16px;
         width: 12px;
     }
     #section2-part2-part2{
+        flex-direction: column;
         justify-content: flex-start;
     }
     #section2-part2-part2 h2 {
-        font-size: 33px;
+        font-size: 43px;
+        text-align: center;
     }
     #section2-part2-part2 p {
-        font-size: 17px;
+        font-size: 20px;
+        text-align: center;
+        padding-bottom: 20px;
+    }
+    #section2-part2-part2-content{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    #section2-part2-part2-img{
+        display: flex;
+        justify-content: center;
     }
     #section2-part2-part2-img img {
-        height: 165px;
+        height: 209px;
+        margin-bottom: 50px;
+    }
+    #section2-part3{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
     #section2-part3 h2 {
-        font-size: 33px;
+        font-size: 43px;
+        text-align: center;
+        line-height: 45px;
     }
     #rating {
         height: 166px;
@@ -1291,7 +1372,13 @@ body{
         margin-left: 30px;
     }
     #section2-part3 p {
-        font-size: 17px;
+        font-size: 20px;
+        margin-bottom: 20px;
+    }
+    #section2-part3-buttons{
+        justify-content: center;
+        padding-right: 0;
+        margin-top: 0;
     }
     #section2-part3-buttons img {
         height: 16px;
@@ -1330,6 +1417,7 @@ body{
     }
     #section4-part3-part1-buttons button {
         font-size: 21px;
+        margin-left: 300px;
     }
     #section4-part3-part1-buttons img {
         margin-left: 6px;
@@ -1446,6 +1534,61 @@ body{
         margin-bottom: 14px;
     }
     .section2{
+        max-width: 400px;
+    }
+    #section2-part1 h2 {
+        font-size: 32px;
+    }
+    #section2-part1 h3 {
+        font-size: 23px;
+    }
+    #section2-part1-paras p {
+        font-size: 14px;
+        max-width: 244px;
+    }
+    #section2-part1-paras-img img {
+        height: 200px;
+        width: 159px;
+    }
+    #section2-part2-part1 h2 {
+        font-size: 32px;
+    }
+    #section2-part2-part1 p {
+        font-size: 14px;
+    }
+    #click {
+        font-size: 15px;
+    }
+    #section2-part2-part1-img img {
+        height: 145px;
+    }
+    #section2-part2-buttons {
+        margin-bottom: 30px;
+    }
+    #section2-part2-part2 h2 {
+        font-size: 32px;
+    }
+    #section2-part2-part2 p {
+        font-size: 15px;
+    }
+    #section2-part2-part2-img img {
+        height: 162px;
+    }
+    #rating {
+        height: 130px;
+    }
+    #medal {
+        height: 130px;
+        margin-left: 20px;
+    }
+    #section2-part3 h2 {
+        font-size: 32px;
+    }
+    #section2-part3 p {
+        font-size: 15px;
+        text-align: center;
+    }
+    /* .section2{
     max-width: 400px;
     margin-bottom: 20px;
     }
@@ -1520,7 +1663,7 @@ body{
     #section2-part3-buttons img {
         height: 10px;
         width: 8px;
-    }
+    } */
     .section3{
         max-width: 400px;
     }
