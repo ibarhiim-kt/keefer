@@ -42,7 +42,7 @@ body{
     background-color: #f0f0f09b;
 }
 .container{
-    /* max-width: 1260px; */
+    max-width: 1260px;
     margin: auto;
     overflow: hidden;
 }
@@ -631,7 +631,7 @@ body{
 @media(max-width:1239px){
 
     .container{
-        /* max-width: 1100px; */
+        max-width: 1100px;
     }
     .headerPara{
         margin-right: 0;
@@ -975,7 +975,7 @@ body{
 }
 @media(max-width:1000px){
     .container{
-        /* max-width: 900px; */
+        max-width: 850px;
     }
     #headerPara-p1 {
         font-family: "Poppins Bold";
@@ -1169,8 +1169,7 @@ body{
     }
     #footer h1 {
         font-size: 43px;
-    }
-    
+    }    
 }
 @media(max-width:790px)
 {
@@ -1185,7 +1184,7 @@ body{
         width: 50px;
     }
     .container{
-        /* max-width: 550px; */
+        max-width: 550px;
         padding-right: 10px;
     }
     .bar{
