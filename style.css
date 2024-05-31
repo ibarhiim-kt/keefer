@@ -69,19 +69,20 @@ body{
 }
 #headerPara-p1{
     font-family: "Poppins Bold";
-    font-size: 28px;
-    max-width: 345px;
+    font-size: 28.3px;
+    max-width: 370px;
     border-bottom: 3px solid rgb(109, 108, 108); 
     color: maroon;
+    letter-spacing: 1px;
 }
 .headerPara h1{
-    font-family: "Poppins Medium";
-    font-size: 51px;
+    font-family: "Poppins Bold";
+    font-size: 53.5px;
     margin-top: 7px;
 }
 #headerPara-p2{
     font-family: "Poppins Medium";
-    font-size: 20px;
+    font-size: 21.5px;
     margin-top: -5px;
 }
 .container2{
@@ -102,7 +103,7 @@ body{
     text-decoration: none;
     /* margin-left: 29px; */
     color: rgba(255, 255, 255, 0.822);
-    font-size: 19px;
+    font-size: 19.5px;
     text-shadow: 2px 2px 10px rgba(42, 41, 41, 0.595);
 }
 #home{
@@ -1211,6 +1212,9 @@ body{
     .bar a {
         font-size: 9px;
         color: maroon;
+    }
+    #home:hover{
+        background-color: maroon;
     }
     .section1{
         max-width: 550px;
