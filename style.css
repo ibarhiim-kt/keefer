@@ -289,7 +289,7 @@ body{
     font-family: "Poppins SemiBold";
     display: flex;
     max-width: 360px;
-    margin-bottom: 16px;
+    margin-bottom: 10px;
     margin-top: 10px;
 }
 #section2-part1-paras p{
@@ -312,7 +312,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: flex-end;
-    margin-left: 132px;
+    margin-left: 122px;
     padding-right: 20px;
     border-top: 2px solid rgba(182, 176, 176, 0.54);    
 }
@@ -487,39 +487,47 @@ body{
 #box1{
     font-family: "Poppins Medium";
     background-color:gray;
-    max-width: 270px;
+    max-width: 275px;
     display: flex;
     margin-top: 20px;
     font-size: 15px;
     box-shadow: 0 10px 10px -10px rgba(0, 0, 0, 500);
 }
+#box1 h2{
+    font-family: "Poppins SemiBold";
+    margin-bottom: -5px;
+}
 #box1-para{
-    padding: 10px 13px;
+    padding: 5px 12px;
     color: white;    
 }
 #box1-para h4{
+    font-family: "Poppins SemiBold";
     align-items: center;
     display: flex;
-    margin-left: 120px;
+    margin-left: 125px;
     max-width: 400px;
+    margin-top: 7px;
 }
 #box1-para img{
     height: 15px;
     width: 10px;
 }
 #line{
-    width: 15px;
+    width: 11px;
     background: linear-gradient(to bottom, maroon 50%, black);
 }
 #section4-part1-learn{
-    margin-top: 40px;
+    margin-top: 55px;
+    font-size: 25px;
+    letter-spacing: -1px;
 }
 #section4-part1 img{
     margin-left: 5px;
 }
 #menu-area{
     font-family: "Poppins Medium";
-    margin-top: 90px;
+    margin-top: 83px;
     font-size: 15px;
     color: rgba(128, 128, 128, 0.323);
     display: flex;
@@ -539,7 +547,8 @@ body{
     font-weight: 600;
 }
 #section4-part3{
-    max-width: 200px;    
+    max-width: 200px;   
+    padding-top: 6px; 
 }
 #section4-part3-part1{
     margin-bottom: 40px;    
@@ -587,12 +596,16 @@ body{
 #footer{
     margin-top: 25px;
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 #footer h1{
     border-bottom: 2px solid gray;
     margin-bottom: 5px;
     font-size: 25px;
     box-shadow: 0 10px 10px -10px rgba(0, 0, 0, 500);
+    width: 222px;
 }
 #footer span{
     color: maroon;
@@ -601,11 +614,13 @@ body{
     height: 40px;
 }
 #footer div{   
-    margin-top: 15px;
+    margin-top: 10px;
     display: grid;
     grid-template-columns: repeat(4,1fr);
-    grid-row-gap: 20px;
+    /* grid-row-gap: 20px; */
     justify-items: center;
+    align-items: center;
+    width: 220px;
 }
 #line2{
     height: 15px;
@@ -974,40 +989,41 @@ body{
         margin-top: -20px;
     }
     .bar{
-        max-width: 900px;
+        max-width: 850px;
+        padding-right: 0px;
     }
     .bar a{
         font-size: 13px;
     }
     .section1{
-        max-width: 900px;
+        max-width: 850px;
     }
     #section1-box-part1 h2 {
-        font-size: 43px;
+        font-size: 48px;
     }
     #section1-box-part1-para {
         font-size: 30px;
         line-height: 32px;
-        top: 12px;
-        left: 343px;
+        top: 21px;
+        left: 375px;
     }
     #section1-box-part1-para span {
-        font-size: 47px;
+        font-size: 52px;
     }
     #section1-box-part2 {
         margin-top: 37px;
-        font-size: 26px;
-        max-width: 710px;
-        line-height: 35px;
+        font-size: 27px;
+        max-width: 743px;
+        line-height: 37px;
     }
     #section1-box-part2 span {
-        font-size: 26px;
+        font-size: 29px;
     }
     #section1-box-part3{
-        max-width: 710px;
+        max-width: 743px;
     }
     #section1-box-part3 label {
-        font-size: 22px;
+        font-size: 21px;
     }
     #name {
         padding-left: 10px;
@@ -1017,32 +1033,32 @@ body{
     }
     #confidential{
         height: 90px;
-    }
-    #confidential img{    
-    transform: rotate(12deg);
+        margin-left: 29px;
     }
     #section1-box-part3 input {
-        margin-bottom: 12px;
-        padding: 9px 59px;
+        margin-bottom: 11px;
+        padding: 13px 70px;
     }
     #confidential img {
-        max-width: 263px;
-        transform: rotate(11deg);
-        height: 83px;
+        max-width: 316px;
+        transform: rotate(14deg);
+        height: 93px;
     }
     #textarea {
-        font-size: 23.2px;
+        font-size: 24.37px;
         padding: 5px 0 0 19px;
     }
     #section1-box-part4{
-        max-width: 710px;
+        max-width: 743px;
     }
     #section1-box-part4 p {
-        font-size: 20px;
+        font-size: 23px;
         margin-right: 41px;
     }
     #section1-box-part4-part2 {        
-        font-size: 18px;        
+        font-size: 21px;       
+        padding: 15px 40px 15px 40px; 
+        margin-right: 26px;
     }
     #section1-box-part4-part2 img {
         height: 18px;
@@ -1055,7 +1071,7 @@ body{
         margin-left: 13px;
     }
     .section2{
-        max-width:900px;
+        max-width:850px;
         margin-bottom: 32px;
     }
     #section2-part1 h2 {
@@ -1111,10 +1127,10 @@ body{
         width: 15px;
     }
     .section3 {
-        max-width: 900px;
+        max-width: 850px;
     }
     .section4{
-        max-width: 900px;
+        max-width: 850px;
     }
     #section4-part1 h2 {
         font-size: 43px;
@@ -1134,6 +1150,7 @@ body{
     }
     #section4-part2 p{
         font-size: 22px;
+        text-align: justify;
     }
     #section4-part3-part1 h2 {
         font-size: 43px;
@@ -1170,13 +1187,13 @@ body{
         padding-right: 10px;
     }
     .bar{
-        max-width: 650px;
+        max-width: 550px;
     }
     .bar a {
         font-size: 9px;
     }
     .section1{
-        max-width: 650px;
+        max-width: 550px;
     }
     #section1-box-part1 h2 {
         font-size: 30px;
@@ -1252,7 +1269,7 @@ body{
         padding: 12px 50px 12px 50px;
     }
     .section2{
-        max-width: 650px;
+        max-width: 550px;
         margin-bottom: 32px;        
     }
     #section2-part1{
@@ -1387,10 +1404,10 @@ body{
         width: 12px;
     }
     .section3{
-        max-width: 650px;
+        max-width: 550px;
     }
     .section4 {
-        max-width: 650px;
+        max-width: 550px;
     }
     #section4-part1 h2 {
         font-size: 33px;
@@ -1452,7 +1469,7 @@ body{
     width: 30px;
     }
     .bar{
-    max-width: 400px;
+    max-width: 350px;
     }
     .bar a{
     margin-left: 19px;
@@ -1462,7 +1479,7 @@ body{
     padding: 6px 3px;
     }
     .section1{
-    max-width: 400px;
+    max-width: 350px;
     }
     #section1-box-part1 h2 {
         font-size: 17px;
@@ -1536,7 +1553,7 @@ body{
         margin-bottom: 14px;
     }
     .section2{
-        max-width: 400px;
+        max-width: 350px;
     }
     #section2-part1 h2 {
         font-size: 32px;
@@ -1606,87 +1623,12 @@ body{
         font-size: 15px;
         text-align: center;
     }
-    /* .section2{
-    max-width: 400px;
-    margin-bottom: 20px;
-    }
-    #section2-part1{
-        margin-bottom: 27px;
-    }
-    #section2-part1 h2 {
-        font-size: 21px;
-    }
-    #section2-part1 h3 {
-        font-size: 16px;
-    }
-    #section2-part1-paras p {
-        font-size: 11px;
-    }
-    #section2-part1-paras-img img {
-        height: 116px;
-        width: 90px;
-    }
-    #click {
-        font-size: 12px;
-    }
-    #section2-part1-buttons img {
-        height: 10px;
-        width: 8px;
-    }
-    #section2-part2-part1 h2 {
-        font-size: 21px;
-    }
-    #section2-part2-part1 p {
-        font-size: 11px;
-        padding-bottom: 26px;
-    }
-    #section2-part2-buttons img {
-        height: 10px;
-        width: 8px;
-    }
-    #section2-part2-part1-content {
-        max-width: 153px;
-        margin-right: 0px;
-    }
-    #section2-part2-part1-img img {
-        height: 72px;
-    }
-    #section2-part2-part2 h2 {
-        font-size: 21px;
-    }
-    #section2-part2-part2 p {
-        font-size: 11px;
-        padding-bottom: 26px;
-    }
-    #section2-part2-part2-content{
-        max-width: 160px;
-    }
-    #section2-part2-part2-img img {
-        height: 86px;
-    }
-    #rating {
-        height: 92px;
-    }
-    #medal {
-        height: 92px;
-        margin-left: 23px;
-    }
-    #section2-part3 h2 {
-        font-size: 21px;
-    }
-    #section2-part3 p {
-        font-size: 11px;
-        margin-bottom: 26px;
-    }
-    #section2-part3-buttons img {
-        height: 10px;
-        width: 8px;
-    } */
+    
     .section3{
-        max-width: 400px;
+        max-width: 350px;
     }
     .section4{
-        max-width: 400px;
+        max-width: 350px;
     }
     #section4-part1 h2 {
         font-size: 21px;
