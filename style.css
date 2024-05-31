@@ -915,6 +915,7 @@ body{
         font-size: 28px;
         line-height: normal;
         margin-top: 25px;
+        text-align: justify;
     }
     #section4-part3{
         max-width: none;
