@@ -190,6 +190,9 @@ body{
     justify-content: space-between;
     margin-top: 10px;       
 }
+#section1-box-part3 form{
+    width: 100%;
+}
 #section1-box-part3 label{
     font-family: "Poppins Bold";
     letter-spacing: -0.3px;
@@ -932,7 +935,9 @@ body{
         margin-top: 33px;
     }
     #section4-part3-part1-buttons{
-        width: 100%;
+        width: 50%;
+        margin-left: 250px;
+        margin-top: 20px;
     }
     #section4-part3-part1-buttons img {
         margin-left: 12px;
@@ -941,7 +946,7 @@ body{
     #section4-part3-part1-buttons button{
         font-size: 34px;  
         margin-top: 0;      
-        margin-left: 500px;
+        margin-left: 136px;
     }
     #section4-rating {
         height: 190px;
@@ -1160,6 +1165,9 @@ body{
     #section4-part3-part1 p {
         font-size: 22px;
     }
+    #section4-part3-part1-buttons {
+        margin-left: 202px;
+    }
     #section4-part3-part1-buttons button {
         font-size: 26px;
     }
@@ -1173,6 +1181,9 @@ body{
 }
 @media(max-width:790px)
 {
+    .cont-parent{
+        background-color: #D5D9DA;
+    }
     .headerPara{
         display: none;
     }
@@ -1192,6 +1203,7 @@ body{
     }
     .bar a {
         font-size: 9px;
+        color: maroon;
     }
     .section1{
         max-width: 550px;
@@ -1434,10 +1446,14 @@ body{
     }
     #section4-part3-part1 p {
         font-size: 17px;
+        margin-top: 19px;
+    }
+    #section4-part3-part1-buttons {
+        margin-left: 140px;
     }
     #section4-part3-part1-buttons button {
         font-size: 21px;
-        margin-left: 300px;
+        margin-left: 66px;
     }
     #section4-part3-part1-buttons img {
         margin-left: 6px;
@@ -1463,7 +1479,7 @@ body{
 }
 @media(max-width:495px){
     .container{
-    /* max-width: 400px; */
+    max-width: 350px;
     }
     #nav img{
     height: 25px;
@@ -1665,10 +1681,13 @@ body{
         font-size: 11px;
         margin-top: 7px;
     }
+    #section4-part3-part1-buttons {
+        margin-left: 90px;
+    }
     #section4-part3-part1-buttons button {
         font-size: 12px;
         padding: 2px 12px;
-        margin-left: 160px;
+        margin-left: 24px;
     }
     #section4-part3-part1-buttons img {
         margin-left: 5px;
