@@ -211,13 +211,15 @@ body{
     padding-left: 6px;
 }
 #confidential{    
-    margin-left: 20px;
+    /* margin-left: 20px; */
+    width: 77%;
     height: 65px;
     position: relative;
 }
 #confidential img{    
     height: 60px;
-    max-width: 190px;
+    /* max-width: 190px; */
+    width: 100%;
     transform: rotate(11deg);    
 }
 #textarea{
@@ -227,6 +229,7 @@ body{
     padding: 5px 0 0 8px;
     color: rgba(0, 0, 0, 0.695); 
     resize: none;
+    width: 100%;
 }
 #section1-box-part4 { 
     font-family: "Poppins Light";     
@@ -249,6 +252,7 @@ body{
     background-color: rgb(171, 11, 11);
     display: flex;
     align-items: center;
+    justify-content: center;
     color: rgba(255, 255, 255, 0.83);
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
     margin-right: 3px;
@@ -697,12 +701,12 @@ body{
         padding-left: 13px;
     }
     #confidential img {
-        max-width: 372px;
+        /* max-width: 372px; */
         transform: rotate(11deg);
         height: 113px;
     }
     #confidential{
-        margin-left: 52px;
+        /* margin-left: 52px; */
         height: 117px;
     }
     #textarea{
@@ -717,11 +721,14 @@ body{
     #section1-box-part4 p{
         font-size: 29px;
         margin-right: 41px;
+        width: 40%;
     }
     #section1-box-part4-part2 {
         padding: 15px 60px 15px 60px;        
         font-size: 28px; 
-        margin-right: 25px;                 
+        /* margin-right: 25px;   */
+        width: 60%;               
+
     }
     #section1-box-part4-part2 img{
         height: 23px;
@@ -1040,14 +1047,14 @@ body{
     }
     #confidential{
         height: 90px;
-        margin-left: 29px;
+        /* margin-left: 29px; */
     }
     #section1-box-part3 input {
         margin-bottom: 11px;
         padding: 13px 70px;
     }
     #confidential img {
-        max-width: 316px;
+        /* max-width: 316px; */
         transform: rotate(14deg);
         height: 93px;
     }
@@ -1059,13 +1066,13 @@ body{
         max-width: 743px;
     }
     #section1-box-part4 p {
-        font-size: 23px;
+        font-size: 22px;
         margin-right: 41px;
     }
     #section1-box-part4-part2 {        
         font-size: 21px;       
         padding: 15px 40px 15px 40px; 
-        margin-right: 26px;
+        /* margin-right: 26px; */
     }
     #section1-box-part4-part2 img {
         height: 18px;
@@ -1250,7 +1257,7 @@ body{
         margin-left: 18px;
     }
     #confidential img {
-        max-width: 178px;
+        /* max-width: 178px; */
         transform: rotate(13deg);
         height: 63px;
     }
@@ -1272,14 +1279,12 @@ body{
     }
     #section1-box-part4-part2 {
         font-size: 12px;
-        margin-right: 20px;
+        /* margin-right: 20px; */
+        padding: 12px 43px 12px 43px;
     }
     #section1-box-part4-part2 img {
         height: 13px;
         width: 12px;
-    }
-    #section1-box-part4-part2 {
-        padding: 12px 50px 12px 50px;
     }
     .section2{
         max-width: 550px;
@@ -1529,6 +1534,7 @@ body{
     #section1-box-part3 input{
     padding: 0;
     margin-bottom: 4px;
+    width: 70%;
     }
     #name {
         padding-left: 3px;
@@ -1537,13 +1543,13 @@ body{
         padding-left: 4px;
     }
     #confidential img {
-        max-width: 75px;
-        transform: rotate(44deg);
-        height: 30px;
+        /* max-width: 75px; */
+        transform: rotate(17deg);
+        height: 43px;
     }
     #confidential {
         height: 33px;
-        margin-left: 3px;
+        margin-left: 0px;
     }
     #textarea {
         font-size: 9.2px;
@@ -1558,7 +1564,7 @@ body{
     }
     #section1-box-part4-part2 {
         font-size: 8px;
-        margin-right: 13px;
+        /* margin-right: 13px; */
         padding: 6px 22px 6px 22px;
     }
     #section1-box-part4-part2 img {
